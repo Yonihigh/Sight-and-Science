@@ -9,7 +9,7 @@ async function fetchLatestNews() {
   console.log("API Response:", data); // ✅ Check if articles have images
   return data.articles;
 }
-async function fetchVisionNews() {
+//async function // fetchVisionNews() {
   const guardianApiKey = process.env.GUARDIAN_API_KEY;
 
   // ✅ Fetch from The Guardian API
